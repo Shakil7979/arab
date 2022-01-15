@@ -1,0 +1,76 @@
+@media all and (max-width: 1199px){
+
+}
+
+@media all and (max-width: 991px){
+	.main_area_single_content {
+		flex: 0 0 48%;
+		border-radius: 5px;
+		margin-bottom: 27px;
+	}
+}
+
+@media all and (max-width: 767px){
+	.search_btn {
+		 margin-right: 0px; 
+	}
+	.main_area_single_content {
+		padding: 15px 15px 24px 15px;
+		background: #E6ECF0;
+	}
+}
+
+@media all and (max-width: 575px){
+	.header_top_left {
+		margin-right: 30px;
+		display: flex;
+	}
+	.main_area_single_content {
+		flex: 0 0 100%;
+	}
+}
+
+@media all and (max-width: 450px){
+	.header_top_left {
+		margin-right: 15px;
+	}
+	.header_top_left a img {
+		width: 17px;
+		height: 13px;
+	}
+	.header_top_left a span {
+		font-size: 11px;
+	}
+	.header_2nd_content {
+		flex-direction: column;
+	}
+	.menu_text {
+		margin-left: 12px; 
+		text-align: right;
+		margin-right: -70px;
+	}
+	.logo {
+		margin-bottom: 10px;
+	}
+	.search input {
+		padding: 0px 10px 0px 33px;
+		width: 65%;
+	}
+	.search {
+		width: 65%;
+	}
+	.s_i_pos {
+		left: 13px;
+		top: 4px;
+	}
+	.s_i_pos a i {
+		font-size: 13px;
+	}
+	.search_btn a {
+		padding: 1px 2px;
+	}
+	.login_page {
+		position: fixed;
+		width: 250px !important;
+	}
+}
